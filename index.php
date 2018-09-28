@@ -78,8 +78,25 @@
 						<ul class="list-inline menu-left mb-0" style="    padding-left: 5px;">
 							
 						</ul>
+						<h3 style="padding: 15px; text-align:center;">Sistema Control de Inventario</h3>
 					</nav>
-hjnkml
+					<div class="row" style="margin-top: 15px;margin-bottom: 15px; margin-right: 0px; margin-left: 0px;">
+						<div class="col-12">
+							<div class="card m-b-20">
+								<div class="card-body">
+									<p class="text-muted m-b-10"> El sistema Control de Inventarios de la Relojeria "ReloxTime" permite a los administradores gestionar el almacen, ventas, proveedores, usuarios, con la finalidad de tener un mayor control sobre la empresa.</p>
+								</div>
+								<div class="card-body">
+									<h4>Misión</h4>
+									<p class="text-muted m-b-10">Comercializar productos con la mejor tecnología e innovación, que proporcionen a nuestros clientes, satisfacción y solución de sus necesidades, garantizando la mejor experiencia de consumo. La honestidad, la capacitación y el trabajo continuo, son el compromiso que siempre estaremos dispuestos a cumplir con respaldo y eficiencia.</p>
+								</div>
+								<div class="card-body">
+									<h4>Visión</h4>
+									<p class="text-muted m-b-10"> En el 2019, el objetivo será el respaldo para el cliente, basado en capacitación continua a nuestro personal y comercializando productos y servicios de excelente tecnología. El crecimiento de nuestra organizaciónestará fundamentado en la apertura y atención de nuevas tiendas a nivel nacional, generando infraestructuras que nos permitan un desarrollo sostenido en el mercado.</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<!-- container-fluid -->
 			</div>
