@@ -1,7 +1,7 @@
 <!-- Top Bar Start -->
 		<div class="topbar">
 			<!-- LOGO -->
-			<div class="topbar-left"><a href="index.html" class="logo"><span><img src="../assets/images/logoRelox-white.png" alt="" height="30"> </span><i><img src="../assets/images/logo-sm.png" alt="" height="22"></i></a></div>
+			<div class="topbar-left"><a href="index.php" class="logo"><span><img src="../assets/images/logoRelox-white.png" alt="" height="30"> </span><i><img src="../assets/images/logo-sm.png" alt="" height="22"></i></a></div>
 			<div class="navbar-custom" style="background-color: #2b3a4a;">
 				<ul class="navbar-right d-flex list-inline float-right mb-0">
 					<li class="notification-list nav-pro-img">
