@@ -32,7 +32,7 @@
 						<li><a href="../almacen" class="waves-effect"><i class="mdi mdi-package-variant"></i><span> Almacén </span></a></li>
 						<li><a href="../ventas" class="waves-effect"><i class="mdi mdi-lock-open"></i><span> Ventas </span></a></li>
 						<li><a href="../usuarios" class="waves-effect"><i class="mdi mdi-account"></i><span> Usuarios </span></a></li>
-						<li><a href="../configuracion" class="waves-effect"><i class="mdi mdi-settings"></i><span> Configuración </span></a></li>
+						<li><a href="../configuracion/editar-perfil.php" class="waves-effect"><i class="mdi mdi-settings"></i><span> Configuración </span></a></li>
 						<li><a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-power"></i><span> Cerrar Sesión </span></a></li>
 					</ul>
 				</div>
