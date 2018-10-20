@@ -78,6 +78,9 @@ a:focus {
     height: auto!important
 }
 
+#mensaje-login{
+    text-align: center !important;
+}
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #3eb7ba
 }
@@ -157,7 +160,7 @@ a:focus {
 }
 
 .text-danger {
-    color: #ec536c!important
+    color: #fcb3ce!important
 }
 
 .text-muted {
@@ -330,54 +333,55 @@ dt {
 }
 
 .font-14 {
-    font-size: 14px
+    font-size: 14px;
 }
 
 .font-16 {
-    font-size: 16px
+    font-size: 16px;
 }
 
 .font-18 {
-    font-size: 18px
+    font-size: 18px;
 }
 
 .font-20 {
-    font-size: 20px
+    font-size: 20px;
 }
 
 .font-24 {
-    font-size: 24px
+    font-size: 24px;
 }
 
 .font-30 {
-    font-size: 30px
+    font-size: 30px;
 }
 
 .thumb-sm {
     height: 32px;
-    width: 32px
+    width: 32px;
 }
 
 .thumb-md {
     height: 48px;
-    width: 48px
+    width: 48px;
 }
 
 .thumb-lg {
     height: 88px;
-    width: 88px
+    width: 88px;
 }
 
 .font-500 {
-    font-weight: 500
+    font-weight: 500;
 }
 
 .font-600 {
-    font-weight: 600
+    font-weight: 600;
 }
 
 .header-title {
-    font-size: 16px
+    font-size: 16px;
+    padding-bottom: 15px;
 }
 
 
@@ -389,7 +393,7 @@ dt {
  * Released under the MIT license 
  * https://github.com/fians/Waves/blob/master/LICENSE */
 
-.waves-effect {
+ .waves-effect {
     position: relative;
     cursor: pointer;
     display: inline-block;
@@ -398,7 +402,8 @@ dt {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    -webkit-tap-highlight-color: transparent
+    -webkit-tap-highlight-color: transparent;
+    background-color:#383838; 
 }
 
 .waves-effect .waves-ripple {
@@ -560,11 +565,12 @@ dt {
     position: fixed;
     right: 0;
     top: 0;
-    z-index: 999
+    z-index: 999;
+    
 }
 
 .topbar .topbar-left {
-    background: #2b3a4a;
+    background: #383838;
     float: left;
     text-align: center;
     height: 70px;
@@ -581,8 +587,8 @@ dt {
     display: none
 }
 
-.navbar-custom {
-    background-color: #fff;
+.navbar-customadmin {
+    background-color: #383838;
     border-radius: 0;
     margin-bottom: 0;
     padding: 0 10px 0 0;
@@ -591,6 +597,15 @@ dt {
     min-height: 70px
 }
 
+.navbar-custom {
+    background-color: white;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 0 10px 0 0;
+    -webkit-box-shadow: 0 2px 3px -2px rgba(0, 0, 0, .15);
+    box-shadow: 0 2px 3px -2px rgba(0, 0, 0, .15);
+    min-height: 70px
+}
 .navbar-custom .nav-link {
     padding: 0 4px
 }
@@ -614,7 +629,7 @@ dt {
 .side-menu {
     width: 240px;
     z-index: 10;
-    background: #2b3a4a;
+    background: #383838;
     bottom: 0;
     margin-top: 0;
     padding-bottom: 30px;
@@ -636,7 +651,7 @@ dt {
 }
 
 .content-page .content {
-   
+
     margin-top: 70px;
     margin-bottom: 60px
 }
@@ -647,12 +662,12 @@ dt {
     display: inline-block;
     height: 70px;
     width: 60px;
-    background-color: #2b3a4a;
+    background-color: #383838;
     font-size: 24px
 }
 
 #sidebar-menu>ul>li>a {
-    color: #8699ad;
+    color: #ffffff;
     display: block;
     padding: 13px 20px;
     font-size: 13.3px;
@@ -696,7 +711,7 @@ dt {
 
 #sidebar-menu>ul>li>a.active {
     color: #fff!important;
-    background-color: #263442
+    background-color: #929292
 }
 
 .menu-title {
@@ -705,7 +720,7 @@ dt {
     font-size: 10px;
     font-weight: 500;
     text-transform: uppercase;
-    color: #b4bfcc
+    color: #ffffff
 }
 
 .enlarged .slimScrollDiv {
@@ -772,8 +787,8 @@ dt {
 .enlarged #wrapper .left.side-menu #sidebar-menu ul>li:hover>a {
     position: relative;
     width: 260px;
-    color: #3eb7ba!important;
-    background-color: #263442
+    color: #ffffff!important;
+    background-color: #929292
 }
 
 .enlarged #wrapper .left.side-menu #sidebar-menu ul>li:hover>ul {
@@ -937,7 +952,7 @@ dt {
 
 .notification-list .nav-link {
     padding: 0 15px;
-    line-height: 70px
+    line-height: 67px
 }
 
 .profile-dropdown {
@@ -3323,7 +3338,8 @@ table.focus-on tbody tr.focused td {
         margin-top: 0
     }
     .container-fluid {
-        width: 100%
+        width: 100%;
+        padding: 0;
     }
 }
 
@@ -3445,4 +3461,41 @@ table.focus-on tbody tr.focused td {
     .enlarged .slimscroll-menu {
         overflow: inherit!important
     }
+}
+
+
+/*JESSICA COMPARAN*/
+
+.admin{
+    font-size: 20px; 
+    color: #FFF; 
+    padding: 10px;
+}
+
+#menuindex{
+    padding-left: 5px;
+}
+
+.tituloindex{
+    padding: 15px; 
+    text-align:center;
+}
+
+.usuario{
+    font-size: 30px;
+    color: white;
+
+}
+
+.usuarioadmin{
+     font-size: 20px;
+     color: #FFF; 
+     padding: 10px;"
+}
+
+.rowtabla{
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    margin-right: 0px; 
+    margin-left: 0px;
 }

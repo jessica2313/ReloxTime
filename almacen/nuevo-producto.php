@@ -1,3 +1,6 @@
+<?php
+include('../session.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,12 +36,12 @@
 		<div class="content-page">
 			<!-- Start content -->
 			<div class="content">
-				<div class="container-fluid" style="padding: 0;">
+				<div class="container-fluid">
 					<?php
 					include 'menu.php';
 					?>
 
-					<div class="row" style="margin-top: 15px;margin-bottom: 15px; margin-right: 0px; margin-left: 0px;">
+					<div class="row rowtabla">
                         <div class="col-12">
                             <div class="card m-b-20">
                                 <div class="card-body">
@@ -46,13 +49,13 @@
                                     <div class="form-group row">
                                         <label for="example-text-input" class="col-sm-2 col-form-label">Descripción</label>
                                         <div class="col-sm-10">
-                                            <input class="form-control" type="text" id="example-text-input">
+                                            <input class="form-control" type="text">
                                         </div>
                                     </div>
                                     <div class="form-group row">
                                         <label for="example-text-input" class="col-sm-2 col-form-label">Cantidad</label>
                                         <div class="col-sm-10">
-                                            <input class="form-control" type="number" id="example-text-input">
+                                            <input class="form-control" type="number" >
                                         </div>
                                     </div>  
                                     <div class="form-group row">
@@ -65,7 +68,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <center><button type="button" class="btn btn-secondary waves-effect" style="background-color:#2b3a4a; ">Enviar</button> </center> 
+                                    <center><button type="button" class="btn btn-secondary waves-effect">Enviar</button> </center> 
                                 </div>
                             </div>
                         </div>

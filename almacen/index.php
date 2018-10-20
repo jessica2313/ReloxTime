@@ -1,3 +1,6 @@
+<?php
+include('../session.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +24,7 @@
 	<div id="wrapper">
 		
 		<?php
-			include '../assets/menu.php';
+		include '../assets/menu.php';
 		?>
 		<!-- LeftSidebar End -->
 		<!-- ============================================================== -->
@@ -30,51 +33,51 @@
 		<div class="content-page">
 			<!-- Start content -->
 			<div class="content">
-				<div class="container-fluid" style="padding: 0;">
+				<div class="container-fluid">
 					<?php
-                        include 'menu.php';
-                    ?>
-                    <div class="row" style="margin-top: 15px;margin-bottom: 15px; margin-right: 0px; margin-left: 0px;">
-                        <div class="col-12">
-                            <div class="card m-b-20">
-                                <div class="card-body">
-                                    <h4 class="mt-0 header-title">Ejemplo de lista de almacén</h4>
-                                    <p class="text-muted m-b-30">La siguiente tabla muestra datos ilustrativos.</p>
-                                    <div class="table-rep-plugin">
-                                        <div class="table-responsive b-0" data-pattern="priority-columns">
-                                            <table id="tech-companies-1" class="table table-striped">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Descripción</th>
-                                                        <th data-priority="1">Cantidad</th>
-                                                        <th data-priority="3">Status</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <th>GOOG <span class="co-name">Google Inc.</span></th>
-                                                        <td>597.74</td>
-                                                        <td>12:12PM</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th>AAPL <span class="co-name">Apple Inc.</span></th>
-                                                        <td>378.94</td>
-                                                        <td>12:22PM</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th>AMZN <span class="co-name">Amazon.com Inc.</span></th>
-                                                        <td>191.55</td>
-                                                        <td>12:22PM</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end col -->
-                    </div>
+					include 'menu.php';
+					?>
+					<div class="row rowtabla">
+						<div class="col-12">
+							<div class="card m-b-20">
+								<div class="card-body">
+									<h4 class="mt-0 header-title">Ejemplo de lista de almacén</h4>
+									<p class="text-muted m-b-30">La siguiente tabla muestra datos ilustrativos.</p>
+									<div class="table-rep-plugin">
+										<div class="table-responsive b-0" data-pattern="priority-columns">
+											<table id="tech-companies-1" class="table table-striped">
+												<thead>
+													<tr>
+														<th>Descripción</th>
+														<th data-priority="1">Cantidad</th>
+														<th data-priority="3">Status</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<th>GOOG <span class="co-name">Google Inc.</span></th>
+														<td>597.74</td>
+														<td>12:12PM</td>
+													</tr>
+													<tr>
+														<th>AAPL <span class="co-name">Apple Inc.</span></th>
+														<td>378.94</td>
+														<td>12:22PM</td>
+													</tr>
+													<tr>
+														<th>AMZN <span class="co-name">Amazon.com Inc.</span></th>
+														<td>191.55</td>
+														<td>12:22PM</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end col -->
+					</div>
 
 				</div>
 				<!-- container-fluid -->

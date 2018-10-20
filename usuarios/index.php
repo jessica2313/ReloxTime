@@ -1,3 +1,6 @@
+<?php
+include('../session.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,11 +36,11 @@
 		<div class="content-page">
 			<!-- Start content -->
 			<div class="content">
-				<div class="container-fluid" style="padding: 0;">
+				<div class="container-fluid">
 					<?php
                         include 'menu.php';
                     ?>
-                    <div class="row" style="margin-top: 15px;margin-bottom: 15px; margin-right: 0px; margin-left: 0px;">
+                    <div class="row rowtabla">
                         <div class="col-12">
                             <div class="card m-b-20">
                                 <div class="card-body">

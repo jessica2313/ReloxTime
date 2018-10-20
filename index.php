@@ -1,126 +1,159 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimal-ui">
 	<title>ReloxTime</title>
-	<meta content="Admin Dashboard" name="description">
-	<meta content="Themesbrand" name="author">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="shortcut icon" href="assets/images/favicon.png">
-	<link rel="stylesheet" href="plugins/morris/morris.css">
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/metismenu.min.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/icons.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+
 </head>
+<body class="landing is-preload">
+	<div id="page-wrapper">
 
-<body>
-	<!-- Begin page -->
-	<div id="wrapper">
+		<!-- Header -->
+		<header id="header" class="alt">
+			<div class="topbar-left"><span><img src="assets/images/logoRelox-white.png" alt="" height="30"> </span></div>
+			<nav id="nav">
+				<ul>
+					<li><a href="index.php">Nosotros</a></li>
+					<li><a href="contact.php">Contactanos</a></li>
+					<li><a href="iniciar-sesion.php" class="button">Iniciar Sesión</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Banner -->
+
+		<div id="banner" class="topbar-left"><span><img src="assets/images/logoRelox-white.png" alt="logo" height="60"> </span></div>
 		
-		<!-- Top Bar Start -->
-		<div class="topbar">
-			<!-- LOGO -->
-			<div class="topbar-left"><a href="index.php" class="logo"><span><img src="assets/images/logoRelox-white.png" alt="" height="30"> </span><i><img src="assets/images/logo-sm.png" alt="" height="22"></i></a></div>
-			<div class="navbar-custom" style="background-color: #2b3a4a;">
-				<ul class="navbar-right d-flex list-inline float-right mb-0">
-					<li class="notification-list nav-pro-img">
-						<p class="nav-link arrow-none waves-effect nav-user"><img src="assets/images/users/user-4.jpg" alt="user" class="rounded-circle"><span style="font-size: 20px; color: #FFF; padding: 10px;">Admin</span>
-						</p>
-					</li>
 
-				</ul>
-				<ul class="list-inline menu-left mb-0">
-					<li class="float-left">
-						<button class="button-menu-mobile open-left waves-effect"><i class="mdi mdi-menu"></i></button>
-					</li>
-				</ul>
-			</div>
+		<!-- Main -->
+		<section id="main" class="container">
+			<section class="box special">
 
-		</div>
-		<!-- Top Bar End -->
-		<!-- ========== Left Sidebar Start ========== -->
-		<div class="left side-menu">
-			<div class="slimscroll-menu" id="remove-scroll">
-				<!--- Sidemenu -->
-				<div id="sidebar-menu">
-					<!-- Left Menu Start -->
-					<ul class="metismenu" id="side-menu">
-						<li class="menu-title">Menu</li>
-						<li><a href="#" class="waves-effect"><i class="mdi mdi-view-dashboard"></i><span>Inicio</span></a></li>
-						<li><a href="proveedores" class="waves-effect"><i class="mdi mdi-account"></i><span> Proveedores</span></a></li>
-						<li><a href="almacen" class="waves-effect"><i class="mdi mdi-package-variant"></i><span> Almacén </span></a></li>
-						<li><a href="ventas" class="waves-effect"><i class="mdi mdi-lock-open"></i><span> Ventas </span></a></li>
-						<li><a href="usuarios" class="waves-effect"><i class="mdi mdi-account"></i><span> Usuarios </span></a></li>
-						<li><a href="configuracion" class="waves-effect"><i class="mdi mdi-settings"></i><span> Configuración </span></a></li>
-						<li><a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-power"></i><span> Cerrar Sesión </span></a></li>
-					</ul>
+				<h2>Rendimiento y Calidad</h2>	
+				<header class="major">
+
+					<p>Somos una empresa dedicada a la venta de relojería con la mas alta calidad y rendimieto en cada uno de sus productos.</p>
+				</header>
+				<span id="bannerchic" class="image featured"></span>
+			</section>
+
+			<section class="box special features">
+				<h2>Productos</h2>
+				<div class="features-row">
+					<section>
+						<img class="relojes" src="images/1.png" alt="imagen 1" />
+						<h3>Magna etiam</h3>
+						<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+					</section>
+					<section>
+						<img class="relojes" src="images/3.png" alt="imagen 3" />
+						<h3>Ipsum dolor</h3>
+						<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+					</section>
 				</div>
-				<!-- Sidebar -->
-				<div class="clearfix"></div>
-			</div>
-			<!-- Sidebar -left -->
-		</div>
-		
+				<div class="features-row">
+					<section>
+						<img class="relojes" src="images/2.png" alt="imagen 2"/>
+						<h3>Sed feugiat</h3>
+						<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+					</section>
+					<section>
+						<img class="relojes" src="images/4.png" alt="imagen 4" />
+						<h3>Enim phasellus</h3>
+						<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+					</section>
+				</div>
 
+				<a id="boton-mas" class="button">Ver más</a>
 
-		<!-- LeftSidebar End -->
-		<!-- ============================================================== -->
-		<!-- Start right Content here -->
-		<!-- ============================================================== -->
-		<div class="content-page">
-			<!-- Start content -->
-			<div class="content">
-				<div class="container-fluid" style="padding: 0;">
-					<nav class="navbar-custom">	
-						<ul class="list-inline menu-left mb-0" style="    padding-left: 5px;">
-							
-						</ul>
-						<h3 style="padding: 15px; text-align:center;">Sistema Control de Inventario</h3>
-					</nav>
-					<div class="row" style="margin-top: 15px;margin-bottom: 15px; margin-right: 0px; margin-left: 0px;">
-						<div class="col-12">
-							<div class="card m-b-20">
-								<div class="card-body">
-									<p class="text-muted m-b-10"> El sistema Control de Inventarios de la Relojeria "ReloxTime" permite a los administradores gestionar el almacen, ventas, proveedores, usuarios, con la finalidad de tener un mayor control sobre la empresa.</p>
-								</div>
-								<div class="card-body">
-									<h4>Misión</h4>
-									<p class="text-muted m-b-10">Comercializar productos con la mejor tecnología e innovación, que proporcionen a nuestros clientes, satisfacción y solución de sus necesidades, garantizando la mejor experiencia de consumo. La honestidad, la capacitación y el trabajo continuo, son el compromiso que siempre estaremos dispuestos a cumplir con respaldo y eficiencia.</p>
-								</div>
-								<div class="card-body">
-									<h4>Visión</h4>
-									<p class="text-muted m-b-10"> En el 2019, el objetivo será el respaldo para el cliente, basado en capacitación continua a nuestro personal y comercializando productos y servicios de excelente tecnología. El crecimiento de nuestra organizaciónestará fundamentado en la apertura y atención de nuevas tiendas a nivel nacional, generando infraestructuras que nos permitan un desarrollo sostenido en el mercado.</p>
-								</div>
-							</div>
-						</div>
+				<div id="contenedor-mas">
+					<div class="features-row">
+						<section>
+							<img class="relojes" src="images/1.png" alt="imagen 1"/>
+							<h3>Magna etiam</h3>
+							<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+						</section>
+						<section>
+							<img class="relojes" src="images/3.png" alt="imagen 3"/>
+							<h3>Ipsum dolor</h3>
+							<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+						</section>
+					</div>
+					<div class="features-row">
+						<section>
+							<img class="relojes" src="images/2.png" alt="imagen 2"/>
+							<h3>Sed feugiat</h3>
+							<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+						</section>
+						<section>
+							<img class="relojes" src="images/4.png" alt="imagen 4"/>
+							<h3>Enim phasellus</h3>
+							<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+						</section>
 					</div>
 				</div>
-				<!-- container-fluid -->
-			</div>
-			<!-- content -->
-			<footer class="footer">© 2018 Inventario<span class="d-none d-sm-inline-block"><i class="mdi mdi-heart text-danger"></i> by Jessica</span>.</footer>
-		</div>
-		<!-- ============================================================== -->
-		<!-- End Right content here -->
-		<!-- ============================================================== -->
-	</div>
-	<!-- END wrapper -->
-	<!-- jQuery  -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/bootstrap.bundle.min.js"></script>
-	<script src="assets/js/metisMenu.min.js"></script>
-	<script src="assets/js/jquery.slimscroll.js"></script>
-	<script src="assets/js/waves.min.js"></script>
-	<script src="plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
-	<!--Morris Chart-->
-	<script src="plugins/morris/morris.min.js"></script>
-	<script src="plugins/raphael/raphael-min.js"></script>
-	<script src="assets/pages/dashboard.js"></script>
-	<!-- App js -->
-	<script src="assets/js/app.js"></script>
-</body>
 
+			</section>
+
+		</section>
+
+		<!-- CTA -->
+		<section id="cta">
+			<h2>Contáctanos</h2>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						Dirección:<br> 
+						UNID
+					</div>
+					<div class="col-md-3">
+						Teléfono:<br>
+						4431280001
+					</div>
+					<div class="col-md-3">
+						Email:<br>
+						jessica2313@gmail.com
+					</div>
+					<div class="col-md-3">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.6646354798495!2d-101.15442888570314!3d19.68430808674175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842d1205607f8719%3A0x834ea09ff30d10e6!2sUNID!5e0!3m2!1ses!2smx!4v1540013068561"  frameborder="0" style="border:0; height: 30VH; width: 100%" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+
+
+
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="https://www.facebook.com/profile.php?id=100009133157246" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>						
+			</ul>
+			© 2018 Inventario<span class="d-none d-sm-inline-block"><i class="mdi mdi-heart text-danger"></i> by Jessica</span>.
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+
+</body>
 </html>
